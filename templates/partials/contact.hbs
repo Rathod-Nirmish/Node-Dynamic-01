@@ -1,0 +1,61 @@
+<div class="containee-fluid mt-5 contact-style" id="contactid">
+  <div class="row">
+    <div class="col-md-10 col-12 mx-auto">
+      <h1 class="text-center main-heading">Contact Us</h1>
+      <p class="text-center sub-heading">we will be happy to help you</p>
+
+      <div class="row">
+        <div class="col-md-6 col-12 mx-auto">
+          <form action="/contact" method="POST">
+
+            <!--  Name input -->
+            <div class="form-outline mb-4">
+              <input
+                type="text"
+                id="name"
+                class="form-control form-control-lg"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <label class="form-label" for="name"> Name</label>
+            </div>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input
+                type="email"
+                id="email"
+                class="form-control form-control-lg"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <label class="form-label" for="email">Email</label>
+            </div>
+
+            <!--  Msg input -->
+            <div class="form-outline mb-4">
+              <input
+                type="text"
+                id="msg"
+                class="form-control form-control-lg"
+                name="msg"
+                placeholder="msg"
+                required
+              />
+              <label class="form-label" for="msg"> Msg</label>
+            </div>
+
+            <!-- Submit button -->
+            <button
+              type="submit"
+              id="login"
+              class="btn-style btn-primary"
+            >Submit</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
